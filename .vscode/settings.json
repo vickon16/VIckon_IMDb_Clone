@@ -1,0 +1,5 @@
+{
+  "cSpell.words": ["IMDB", "navlist", "signin", "svgs", "Watchlist"],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

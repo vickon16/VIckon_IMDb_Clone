@@ -1,0 +1,62 @@
+{
+  "featured" : [
+    {
+      "id": 2,
+      "title": "IMDb Picks: 'Dungeons & Dragons', 'Love & Death' and More ",
+      "src": "/images/long.2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Poll: Favorite from scene",
+      "src": "/images/long.3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Everything New on Disney+ in April",
+      "src": "/images/long.4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Everything New on Hulu in April",
+      "src": "/images/long.5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Everything New on Prime Video in April",
+      "src": "/images/long.6.jpg"
+    }
+  ],
+
+  "topOfficeData" : [
+  {
+    "id" : 1,
+    "title" : "Dungeons & Dragons: Honour Among Thieves",
+    "price" : "37M"
+  },
+  {
+    "id" : 2,
+    "title" : "John Wick : Chapter 4",
+    "price" : "28M"
+  },
+  {
+    "id" : 3,
+    "title" : "His Only Son",
+    "price" : "5.5M"
+  },
+  {
+    "id" : 4,
+    "title" : "Scream VI",
+    "price" : "5.3M"
+  },
+  {
+    "id" : 5,
+    "title" : "Creed III",
+    "price" : "5M"
+  },
+  {
+    "id" : 6,
+    "title" : "Shazam!, Fury of Gods",
+    "price" : "4.6M"
+  }
+]
+}
