@@ -286,21 +286,18 @@ export const Loader = ({ ...restProps }) => (
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g class="ipc-loader__container" fill="currentColor">
+    <g  fill="currentColor">
       <circle
-        class="ipc-loader__dot ipc-loader__dot--one"
         cx="6"
         cy="6"
         r="6"
       ></circle>
       <circle
-        class="ipc-loader__dot ipc-loader__dot--two"
         cx="26"
         cy="6"
         r="6"
       ></circle>
       <circle
-        class="ipc-loader__dot ipc-loader__dot--three"
         cx="46"
         cy="6"
         r="6"

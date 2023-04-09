@@ -39,20 +39,33 @@ export default async function Home() {
       <Header />
       <section className="home-wrapper min-h-[70vh]" id="home">
         <div className={`${container} py-2 flex flex-col gap-y-10`}>
+          <Suspense fallback={<Loader width="40" height="18" />}>
             <HomeBanner movieResults={page1Data?.results} />
+          </Suspense>
+          <Suspense fallback={<Loader width="40" height="18" />}>
             <MovieList
               title={"Featured Today"}
               moviesArr={MovieListData.featured}
             />
+          </Suspense>
+          <Suspense fallback={<Loader width="40" height="18" />}>
             <WhatToWatch />
+          </Suspense>
+          <Suspense fallback={<Loader width="40" height="18" />}>
             <FansFavorite
               movieResults={page1Data?.results}
               subTitle="Fans favorites"
               icon={true}
               paragraphText="This week's top TV and movies"
             />
+          </Suspense>
+          <Suspense fallback={<Loader width="40" height="18" />}>
             <MoreToWatch />
+          </Suspense>
+          <Suspense fallback={<Loader width="40" height="18" />}>
             <ExploreMovies moviesArr={MovieListData.topOfficeData} />
+          </Suspense>
+          <Suspense fallback={<Loader width="40" height="18" />}>
             <FansFavorite
               movieResults={page2Data?.results}
               title="What to watch"
@@ -60,6 +73,7 @@ export default async function Home() {
               icon={true}
               paragraphText="TV shows and movies just for you"
             />
+          </Suspense>
         </div>
       </section>
       <Footer />
